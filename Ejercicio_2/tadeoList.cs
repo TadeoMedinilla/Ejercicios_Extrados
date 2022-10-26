@@ -34,18 +34,9 @@ namespace Ejercicio_2
         public int[] Push(int a)
         {
             VerificarEspacio(matriz); // Esta bien pasado el argumento del metodo?
-            if (e == 0)
-            {
-                matriz[e] = a;
-                e++;
-                return matriz;
-            }
-            else
-            {
-                matriz[e] = a;
-                e++;
-                return matriz;
-            }
+            matriz[e] = a;
+            e++;
+            return matriz;
         }
 
         public int[] Insert(int posicion, int valor)
